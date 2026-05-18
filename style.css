@@ -686,6 +686,10 @@
     
     @media (max-width: 900px) {
 
+        html, body {
+            overflow: auto;
+        }
+
         .menu {
             width: 100%;
             height: auto;
