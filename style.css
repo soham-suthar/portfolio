@@ -553,8 +553,8 @@
 
     .top button, .top_1 button{
         border-radius: 50%;
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
     }
 
     .top {
