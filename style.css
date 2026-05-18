@@ -223,17 +223,16 @@
     }
 
     .c_container {
-        font-size: 16px;
         margin-top: 40px;
     }
 
     .try {
         color: #41BEA6;
-        font-size: 16px;
+        font-size: 20px;
     }
     .de {
         color: grey;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .sub {
@@ -554,7 +553,7 @@
 
     .top button, .top_1 button{
         border-radius: 50%;
-        width: 20px;
+        width: 10px;
         height: 10px;
     }
 
@@ -582,7 +581,7 @@
         justify-content: left;
         color: #41BEA6;
         font-family: Inter;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     input, textarea {
