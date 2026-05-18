@@ -223,7 +223,7 @@
     }
 
     .c_container {
-        margin-top: 40px;
+        font-size: 20px;
     }
 
     .try {
@@ -251,6 +251,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 10px;
     }
 
     .sub img {
@@ -373,7 +374,6 @@
     }
 
     .cont {
-        color: white;
         text-align: left;
     }
 
@@ -613,7 +613,7 @@
     }
 
     input::placeholder, textarea::placeholder {
-        font-size: x-large;
+        font-size: 16px;
     }
 
     input:focus, textarea:focus {
