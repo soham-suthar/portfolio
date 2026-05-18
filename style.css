@@ -12,7 +12,7 @@
     body {
         font-size: 15px;
         background: #0f1513;
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
      
     ul {
@@ -105,8 +105,9 @@
         margin-left: 280px;
         margin-top: 50px;
         width: calc(100% - 280px);
-        min-height: calc(100vh - 50px);
-        padding: 20px;
+        height: calc(100vh - 50px);
+        padding: 15px;
+        overflow: hidden;
     }
 
     #skills, #projects, #contact {
@@ -115,11 +116,6 @@
         display: none;
         color: #41BEA6;
         padding: 20px;
-    }
-
-    #main, #skills, #projects, #contact {
-        width: 100%;
-        min-height: 100%;
     }
 
     #contact {
@@ -727,6 +723,7 @@
             margin-left: 0;
             width: 100%;
             padding: 70px 15px 20px;
+            overflow: auto;
         }
 
         .content_1 {
