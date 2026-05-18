@@ -6,13 +6,13 @@
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-        height: 100%;
+        min-height: 100%;
     }
     
     body {
         font-size: 15px;
         background: #0f1513;
-        overflow: hidden;
+        overflow-x: hidden;
     }
      
     ul {
@@ -107,7 +107,6 @@
         width: calc(100% - 280px);
         min-height: calc(100vh - 50px);
         padding: 20px;
-        overflow: hidden;
     }
 
     #skills, #projects, #contact {
@@ -118,9 +117,9 @@
         padding: 20px;
     }
 
-    #projects, #contact, #skills, #main {
-        height: calc(100vh - 90px);
-        overflow: hidden;
+    #main, #skills, #projects, #contact {
+        width: 100%;
+        min-height: 100%;
     }
 
     #contact {
@@ -706,12 +705,13 @@
 
         .menu {
             position: fixed;
-            top: 70px;
+            top: 50px;
             left: -100%;
             width: 260px;
-            height: calc(100vh - 70px);
+            height: calc(100vh - 50px);
             z-index: 2000;
             transition: left 0.3s ease;
+            overflow-y: auto;
         }
 
         .menu.active {
@@ -726,7 +726,7 @@
         .body {
             margin-left: 0;
             width: 100%;
-            padding: 90px 15px 15px;
+            padding: 70px 15px 20px;
         }
 
         .content_1 {
