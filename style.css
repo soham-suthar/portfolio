@@ -229,11 +229,11 @@
 
     .try {
         color: #41BEA6;
-        font-size: xx-large;
+        font-size: 16px;
     }
     .de {
         color: grey;
-        font-size: x-large;
+        font-size: 16px;
     }
 
     .sub {
@@ -555,7 +555,7 @@
     .top button, .top_1 button{
         border-radius: 50%;
         width: 20px;
-        height: 20px;
+        height: 10px;
     }
 
     .top {
@@ -582,6 +582,7 @@
         justify-content: left;
         color: #41BEA6;
         font-family: Inter;
+        font-size: 16px;
     }
 
     input, textarea {
