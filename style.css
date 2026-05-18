@@ -684,3 +684,50 @@
         padding: 0;
     }
     
+    @media (max-width: 900px) {
+
+        .menu {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        .nav {
+            position: relative;
+            left: 0;
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .body {
+            margin-left: 0;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .content_1 {
+            grid-template-columns: 1fr;
+        }
+
+        .s_container, .p_container {
+            grid-template-columns: 1fr;
+        }
+
+        .form-row {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .form-row label {
+            min-width: auto;
+        }
+
+        .sub-skill {
+            flex-direction: column;
+        }
+
+        .work, #work_1 {
+            width: 100%;
+            min-width: auto;
+        }
+    }
