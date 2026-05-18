@@ -61,3 +61,17 @@ document.querySelectorAll("a").forEach( link => {
         link.classList.add("clicked");
     });
 });
+
+function toggleMenu() {
+    document.querySelector(".menu").classList.toggle("active");
+}
+
+const elements = document.querySelectorAll(".ele");
+
+    elements.forEach(item => {
+        item.addEventListener("click", () => {
+            if (window.innerWidth <= 900) {
+                document.querySelector(".menu").classList.remove("active");
+            }
+        });
+    });

@@ -105,8 +105,8 @@
         margin-left: 280px;
         margin-top: 50px;
         width: calc(100% - 280px);
-        height: calc(100vh - 70px);
-        padding: 10px;
+        min-height: calc(100vh - 50px);
+        padding: 20px;
         overflow: hidden;
     }
 
@@ -596,7 +596,7 @@
 
     textarea {
         height: 50px;
-        font-size: xx-large;
+        font-size: 16px;
     }
 
     .form-row label {
@@ -684,29 +684,49 @@
         padding: 0;
     }
     
+    .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: #41BEA6;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
     @media (max-width: 900px) {
 
         html, body {
             overflow: auto;
         }
 
+        .hamburger {
+            display: block;
+        }
+
         .menu {
-            width: 100%;
-            height: auto;
-            position: relative;
+            position: fixed;
+            top: 70px;
+            left: -100%;
+            width: 260px;
+            height: calc(100vh - 70px);
+            z-index: 2000;
+            transition: left 0.3s ease;
+        }
+
+        .menu.active {
+            left: 0;
         }
 
         .nav {
-            position: relative;
             left: 0;
             width: 100%;
-            margin-left: 0;
         }
 
         .body {
             margin-left: 0;
             width: 100%;
-            padding: 20px;
+            padding: 90px 15px 15px;
         }
 
         .content_1 {
@@ -722,16 +742,58 @@
             align-items: flex-start;
         }
 
-        .form-row label {
-            min-width: auto;
+        .int h1 {
+            font-size: 40px;
         }
 
-        .sub-skill {
-            flex-direction: column;
+        .int h2 {
+            font-size: 24px;
         }
 
-        .work, #work_1 {
+        .sub:hover {
+            transform: none;
+        }
+
+        body {
+            font-size: 14px;
+        }
+
+        .index {
+            font-size: 15px;
+        }
+
+        .int h1 {
+            font-size: 34px;
+        }
+
+        .int h2 {
+            font-size: 20px;
+        }
+
+        .int p {
+            font-size: 14px;
+        }
+
+        .trait {
+            font-size: 13px;
+        }
+
+        .work {
             width: 100%;
-            min-width: auto;
+            min-width: unset;
+        }
+
+        .sub_3 img {
+            width: 120px;
+        }
+
+        .content {
+            padding: 15px;
+        }
+
+        .link {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
         }
     }
