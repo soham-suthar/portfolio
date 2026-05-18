@@ -558,6 +558,10 @@
         height: 20px;
     }
 
+    .top {
+        height: 10px;
+    }
+
     .red {
         background-color: red;
     }
@@ -601,7 +605,7 @@
     }
 
     textarea {
-        height: 80px;
+        height: 50px;
         font-size: xx-large;
     }
 
@@ -611,6 +615,9 @@
     }
     .form-row input, .form-row textarea {
         flex: 1;
+    }
+    .form-row input {
+        height: 18px;
     }
 
     input::placeholder, textarea::placeholder {
@@ -628,7 +635,6 @@
     }
 
     .submit button {
-        font-size: xx-large;
         background-color: #222423;
         color: #41BEA6;
         border: 1px solid #41BEA6;
@@ -646,9 +652,9 @@
     }
 
     .submit {
+        text-align: right;
         font-family: 'JetBrains Mono', monospace;
         color: #41BEA6;
-        font-size: xx-large;
     }
 
     .social i {
