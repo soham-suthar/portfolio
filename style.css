@@ -403,6 +403,20 @@
         margin: 50px 50px 0 50px;
     }
 
+    .content_1_1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: Space Grotesk;
+    }
+
+    .content_1_1 h2 {
+        color: #41BEA6;
+    }
+    .content_1_1 span {
+        color: rgba(245, 245, 245, 0.714);
+    }
+
     .img_box {
         overflow: hidden;
     }
