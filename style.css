@@ -3,7 +3,9 @@
     }
 
     html, body {
-        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
     
     body {
@@ -38,14 +40,12 @@
     .nav {
         background-color: #222423;
         top: 0;
-        left: 0;
+        left: 280px;
         position: fixed;
-        margin-left: 280px;
-        width: calc(100vw - 280px);
+        width: calc(100% - 280px);
         height: 70px;
         border: 1px solid black;
         display: flex;
-        justify-content: left;
         align-items: center;
         z-index: 1000;
     }
@@ -73,7 +73,7 @@
         left: 0;
         width: 280px;
         height: 100vh;
-        overflow-y: hidden;
+        overflow-y: auto;
         position: fixed ;
         border: 1px solid black;
         font-family: Space Grotesk;
@@ -104,14 +104,13 @@
     }
 
     .body {
-        padding: 90px 20px 20px 20px;
+        padding: 90px 20px 20px;
         margin-left: 280px;
-        min-height: calc(100vh - 70px);
-        width: calc(100vw - 280px);
+        min-height: 100vh;
+        width: calc(100% - 280px);
         background-color: #0f1513;
-        overflow: hidden;
         box-sizing: border-box;
-}
+    }
 
     #skills, #projects, #contact {
         min-height: 100vh;
