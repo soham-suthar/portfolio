@@ -10,8 +10,9 @@
     }
     
     body {
-        font-size: 18px;
+        font-size: 15px;
         background: #0f1513;
+        overflow: hidden;
     }
      
     ul {
@@ -51,11 +52,13 @@
     }
     
     .nav h4 {
+        font-size: 16px;
         margin: 0;
-        padding: 20px;
+        padding: 12px;
     }
 
     .nav h5 {
+        font-size: 15px;
         color: #41BEA6;
         margin: 0;
         margin-left: 20px;
@@ -94,11 +97,12 @@
 
     .img img {
         margin: 10px;
-        height: 100px;
+        height: 70px;
         width: auto;
     }
 
     .demo {
+        font-size: 13px;
         color: grey;
         font-size: large;
     }
@@ -118,6 +122,11 @@
         display: none;
         color: #41BEA6;
         padding: 20px;
+    }
+
+    #projects, #contact, #skills, #main {
+        height: calc(100vh - 90px);
+        overflow: hidden;
     }
 
     #contact {
@@ -269,14 +278,14 @@
 
     .sub_3_1 {
         margin: 10px;
-        padding: 12px;
+        padding: 15px;
         border-radius: 10px;
         background: #222423;
         border: 1px solid rgba(255,255,255,0.1);
         overflow: hidden;
         color: rgba(245, 245, 245, 0.714);
         font-family: 'JetBrains Mono', monospace;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .col {
@@ -359,7 +368,7 @@
     
     .sub:hover {
         cursor:pointer;
-        transform: scale(1.05);
+        transform: translateY(-5px);
         box-shadow: 0 0 15px #41BEA6, inset 0 0 5px #222423;
     }
 
@@ -404,6 +413,13 @@
         text-align: left;
     }
 
+    .content h1 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+
     .content_1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -437,15 +453,15 @@
     .int h2 {
         margin: 0;
         color: #41BEA6;
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .int h1 {
         margin: 4px 0;
-        font-size: 48px
+        font-size: 52px
     }
     .int p {
-        font-size: 18px;
+        font-size: 16px;
         color: rgba(245, 245, 245, 0.714);
     }
 
@@ -475,10 +491,10 @@
         background-color: #41BEA6;
         color: #222423;
         cursor: pointer;
-        padding: 16px 32px;
+        padding: 12px 20px;
         min-width: 200px;
         border-radius: 10px;
-        font-size: 25px;
+        font-size: 16px;
         font-family: Space Grotesk;
         border: none;
     }
@@ -551,27 +567,27 @@
         height: 40px;
         width: 100%;
         color: white;
-        font-size: x-large;
+        font-size: 16px;
         font-family: 'JetBrains Mono', monospace;
     }
 
     .form-row {
         display: flex;
-        font-size: xx-large;
+        font-size: 16px;
         font-family: 'JetBrains Mono', monospace;
         color: #41BEA6;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
         margin-top: 15px;
     }
 
     textarea {
-        height: 120px;
+        height: 80px;
         font-size: xx-large;
     }
 
     .form-row label {
-        min-width: 200px;
+        min-width: 100px;
         color: #41BEA6;
     }
     .form-row input, .form-row textarea {
@@ -586,6 +602,10 @@
         outline: none;
         border: 1px solid #41BEA6;
         border-style: groove;
+    }
+
+    .submit, .submit button {
+        font-size: 18px;
     }
 
     .submit button {
