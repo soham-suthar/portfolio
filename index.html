@@ -215,21 +215,28 @@
                         <p class="de"> # Let's build something amazing together!</p>
 
                         <h1> Contact Me: </h1> <br>
-                        <form>
-                            <div class="form-row"> <label> $name: </label>
-                                <input placeholder="Enter your name">
+                        <form id="contactForm">
+
+                            <div class="form-row">
+                            <label>$name:</label>
+                            <input type="text" name="name" placeholder="Enter your name" required>
                             </div>
-                            <div class="form-row"> <label> $email: </label>
-                                <input placeholder="Enter your email">
+
+                            <div class="form-row">
+                            <label>$email:</label>
+                            <input type="email" name="email" placeholder="Enter your email" required>
                             </div>
-                            <div class="form-row"> <label> $message: </label>
-                                <textarea placeholder="Write your message here..."></textarea>
+
+                            <div class="form-row">
+                            <label>$message:</label>
+                            <textarea name="message" placeholder="Write your message here..." required></textarea>
                             </div>
-                            <br>
-                            <br>
+
                             <div class="submit">
-                                $ <button type="submit">Send Message <i class="devicon-cloudrun-plain"></i></button>
-                        </form>
+                            $ <button type="submit"> Send Message <i class="devicon-cloudrun-plain"></i>  </button>
+                            </div>
+
+                            </form>
                     </div>
                 </div>
             </div>
