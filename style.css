@@ -360,7 +360,7 @@ a:hover {
 }
 
 .sub-skill li:hover {
-    color: rgba(245, 245, 245, 0.714);
+    color: white;
     background-color: #0f1513;
     cursor: default;
 }
@@ -761,6 +761,11 @@ button.devicon-cloudrun-plain {
         width: 100%;
         padding: 70px 15px 20px;
         overflow: auto;
+    }
+
+    .sub-skill {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .content_1 {
