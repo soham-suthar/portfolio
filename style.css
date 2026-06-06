@@ -586,6 +586,15 @@ img {
     background-color: #41bea6;
 }
 
+.sub_1 > .top {
+    margin-left: 15px;
+}
+
+.disc {
+    display: block;
+    text-align: center;
+}
+
 .sub_2 h1 {
     display: flex;
     text-align: left;
