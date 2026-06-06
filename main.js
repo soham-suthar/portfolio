@@ -19,6 +19,22 @@ function skills() {
     projectsDiv.style.display = "none";
     contactDiv.style.display = "none";
     social.style.display = "none";
+
+    const skillCard = document.getElementById("s_card");
+
+    let options = "";
+
+    skillCards.forEach(value => {
+    options +=  `
+    <div class="sub"> <img src="${value.src}">
+                    <div class="txt"> ${value.skill} </div>
+                </div>
+    `;
+});
+    skillCard.innerHTML = options;
+    console.log(options);
+    
+
 }
 
 function projects() {
@@ -39,6 +55,17 @@ function contact() {
     social.style.display = "block";
     divide.style.display = "none";
 }
+
+const skillCards = [
+    {skill: "HTML", src: "images/html.png"},
+    {skill: "CSS", src: "images/css.png"},
+    {skill: "JavaScript", src: "images/js.png"},
+    {skill: "Chess", src: "images/chess.png"},
+    {skill: "Academics", src: "images/academics.png"},
+    {skill: "Node.js", src: "images/nodejs.png"}
+];
+
+
 
 let tab = [];
 function sel(e) {
