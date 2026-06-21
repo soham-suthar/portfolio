@@ -62,7 +62,8 @@ const skillCards = [
     {skill: "JavaScript", src: "images/js.png"},
     {skill: "Node.js", src: "images/nodejs.png"},
     {skill: "Chess", src: "images/chess.png"},
-    {skill: "Academics", src: "images/academics.png"}
+    {skill: "Academics", src: "images/academics.png"},
+    {skill: "Mongodb", src: "images/Mongodb.png"}
 ];
 
 

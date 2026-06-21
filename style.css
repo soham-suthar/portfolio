@@ -786,6 +786,10 @@ button.devicon-cloudrun-plain {
         grid-template-columns: 1fr;
     }
 
+    .p_container {
+        gap: 10px;
+    }
+
     .form-row {
         flex-direction: column;
         align-items: flex-start;
